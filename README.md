@@ -1,5 +1,62 @@
-# Firebase Studio
+Sahayak AI is a modern educational platform prototype that demonstrates how Generative AI can power role-specific experiences for Admins, Teachers, and Students within a unified system.
 
-This is a NextJS starter in Firebase Studio.
+Built using Next.js, Google's Genkit (Gemini), and TypeScript, this project emphasizes secure access, practical AI integrations, and a user-friendly UI.
 
-To get started, take a look at src/app/page.tsx.
+🔍 Features
+👩‍💼 Admin / Management
+Full user management: Add, update, and delete teachers/students
+
+Course management dashboard
+
+Real-time platform overview
+
+Secure login portal with admin-only access
+
+👩‍🏫 Teachers
+✨ AI-Powered Lesson Plan Assistant
+
+🧠 AI Quiz Generator (MCQs with correct answers)
+
+📈 Student Analytics (charts, tables)
+
+🗂️ Attendance and course tracking
+
+👨‍🎓 Students
+🤖 AI Tutor: Chatbot with course-specific Q&A
+
+🔁 Flashcard Generator: Study with animated, AI-created flashcards
+
+🧾 Personalized dashboard: quizzes, attendance, certificate generation
+
+👤 Profile and account settings
+
+🧰 Tech Stack
+Frontend: Next.js, React, TypeScript
+
+Styling/UI: Tailwind CSS, ShadCN UI, Recharts
+
+Backend & AI: Google Genkit + Gemini Models
+
+Auth: Custom client-side role-based session auth
+
+🚀 Getting Started
+Clone the repository:
+git clone https://github.com/your-username/sahayak-ai.git
+cd sahayak-ai
+
+Install dependencies:
+npm install
+Add your API keys/configs in .env.local
+
+Run the development server:
+npm run dev
+
+📜 License
+This project is licensed under the MIT License.
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+🙋‍♂️ Questions or Feedback?
+Open an issue or reach out on LinkedIn!
+
